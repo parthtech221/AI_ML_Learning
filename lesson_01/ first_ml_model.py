@@ -2,8 +2,9 @@
 from sklearn.linear_model import LinearRegression
 
 # 1. Training data
-X = [[1], [2], [3], [4], [5]]
-y = [20, 35, 50, 65, 80]
+X = [[1], [2], [3], [4], [5], [6], [7]]
+
+y = [20, 35, 50, 65, 80, 95, 110]
 
 # 2. Create the ML model
 model = LinearRegression()
